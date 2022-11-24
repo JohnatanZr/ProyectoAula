@@ -1,0 +1,33 @@
+<div class="empleado-listado">
+  <h4 style="text-align:center;
+  font-family: MazdaType, helvetica, arial, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  font-weight: 90;
+  ">EMPLEADOS REGISTRADOS EN PLANTILLA</h4>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Cedula</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Celular</th>
+        <th scope="col">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each data}}
+      <tr class="td">
+        <td>{{cedula}}</td>
+        <td>{{nombre}}</td>
+        <td>{{apellido}}</td>
+        <td>{{celular}}</td>
+        <td>
+          <a class="link" href="editarEmpleado/{{cedula}}">Editar</a>
+          <a class="link" href="eliminarEmpleado/{{cedula}}">Eliminar</a>
+        </td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

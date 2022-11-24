@@ -1,0 +1,35 @@
+<div class="empleados-editar">
+    <h1>HOLA COLABORADOR</h1>
+    <div class="card text-center">
+        <div class="card-header">
+            SULIMA
+        </div><br>
+        <div class="card-body">
+            <form action="/editarEmpleados/{{data.cedula}}" method="POST">
+                <div class="mb-1">
+                    <input type="text" class="form-control" name="cedula" value="{{data.cedula}}" readonly placeholder="Cedula">
+                </div><br>
+                <div class="mb-2">
+                    <input type="text" class="form-control" name="nombre" value="{{data.nombre}}"placeholder="Nombres">
+                </div><br>
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="apellido" value="{{data.apellido}}"placeholder="Apellidos">
+                </div><br>
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="celular" value="{{data.celular}}"placeholder="Número Celular">
+                </div><br><br>
+                <div class="autorizacion">
+                    <input type="checkbox">
+                    Autorizo a SULIMA para que mis datos personales sean tratados conforme al manual interno de
+                    políticas y
+                    procedimientos de datos personales que se encuentra publicada en la página web www.sulima.com ,
+                    disponible aquí.
+                </div><br>
+                <div class="mb-4">
+                    <input type="submit" class="boton" value="Registrar">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

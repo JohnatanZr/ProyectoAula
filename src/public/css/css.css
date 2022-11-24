@@ -1,0 +1,388 @@
+.container-menu {
+    background-color: rgb(27, 28, 29);
+    border-bottom: white 1px solid;
+    height: 40px;
+    width: 100%;
+}
+
+.container-menu .menu-navegacion .nav {
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 50px;
+    position: static;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.756);
+    margin-left: 13px;
+    border-bottom: white 1px;
+}
+
+.menu-navegacion {
+    margin-left: 850px;
+}
+
+.submenu {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.submenu-nav {
+    margin-left: 750px;
+}
+
+.submenu .nav {
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 50px;
+    position: static;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.756);
+    margin-left: 20px;
+    border-bottom: white 1px;
+    margin-left: 50px;
+
+
+}
+
+.contenedor-head {
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.contenedor-head h1 {
+    font-size: 19px;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    color: black;
+    line-height: 5;
+    text-align: center;
+    font-weight: 10;
+    letter-spacing: 2px;
+}
+
+.contenedor-head p {
+    font-size: 15px;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.container-footer {
+    background-color: rgb(27, 28, 29);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-footer .footer {
+    margin-top: 100px;
+    margin-right: 80px;
+    color: white;
+}
+
+.container-footer .footer h2 {
+    font-size: 14px;
+    margin-left: 80px;
+    color: white;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    margin-bottom: 40px;
+    border-bottom: white 1px solid;
+}
+
+.container-footer .footer ol ul {
+    margin-bottom: 30px;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    font-size: 13px;
+}
+
+.container-footer p {
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    font-size: 10px;
+
+}
+
+.container-footer .copy {
+    background-color: rgb(27, 28, 29);
+    color: rgba(255, 255, 255, 0.756);
+    margin-bottom: 800px;
+}
+
+.container-img:hover img {
+    width: 100%;
+    transform: scale(1.2);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: transform 2s cubic-bezier(.25, .46, .45, .94);
+}
+
+.container-img img {
+    transition: 1.5s;
+}
+
+.container-img {
+    overflow: hidden;
+}
+
+.container-img div img {
+    width: 100%;
+}
+
+.container-img div .centrado h1 {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    font-size: 45px;
+    color: white;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+.container-img .centrado h4 {
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 23%;
+    font-size: 15px;
+    color: white;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+.container-consesionario img {
+    width: 100%;
+}
+
+.container-servicio {
+    background-color: white;
+    height: 130px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.container-consesionario .testdrive .test:hover a {
+    background-color: rgb(91, 8, 8);
+    color: white;
+    cursor: pointer;
+}
+
+.container-consesionario .testdrive .test a {
+    top: 180%;
+    left: 42%;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+.container-consesionario .testdrive .test h4 {
+    font-weight: 100;
+    letter-spacing: 0px;
+
+}
+
+.container-consesionario img {
+    transition: 0.5s;
+}
+
+.container-consesionario:hover img {
+    filter: grayscale(100%);
+}
+
+.container-servicio p {
+    font-size: 16px;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    ;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container-servicio h3 {
+    font-size: 16px;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    ;
+    color: black;
+    line-height: 100px;
+    text-align: center;
+}
+
+.container-servicio h3 {
+    letter-spacing: 10px;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    ;
+}
+
+.mensaje {
+    height: 300px;
+}
+
+.mensaje h3 {
+    font-size: 15px;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    color: black;
+    line-height: 5;
+    text-align: center;
+    font-weight: 10;
+    letter-spacing: 2px;
+}
+
+.mensaje a {
+    background-color: white;
+    height: 170px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.mensaje a:hover h3 {
+    background-color: rgb(91, 8, 8);
+    color: white;
+    cursor: pointer;
+}
+
+.mensaje a h3 {
+    top: 50%;
+    left: 42%;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    border: black 1px solid;
+}
+
+.container-formulario h1 {
+    letter-spacing: 2px;
+    font-weight: 5;
+}
+
+.container-formulario {
+    height: 490px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+
+}
+
+.container-formulario .form-control {
+    width: 40%;
+    height: 30px;
+}
+
+.container-formulario .card .card-body .form-control {
+    outline: 0 none;
+}
+
+.container-formulario .autorizacion {
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: justify;
+    box-sizing: border-box;
+    position: relative;
+    width: 30%;
+    margin-left: 450px;
+}
+
+.container-formulario .mb-4 {
+    width: 100px;
+    margin-left: 45%;
+}
+
+.container-formulario .boton {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-formulario .card .card-body .mb-4:hover .boton {
+    background-color: black;
+    color: white;
+}
+
+.container-listado {
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    height: 200px;
+}
+
+.container-listado .table {
+    width: 800px;
+    height: 100px;
+    text-align: center;
+}
+.menEmpl{
+    height: 200px;
+}
+.menEmpl h1{
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 5;
+}
+.menEmpl a:hover h3 {
+    background-color: rgb(91, 8, 8);
+    color: white;
+    cursor: pointer;
+}
+
+.menEmpl a h3 {
+    top: 35%;
+    left: 42%;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    border: black 1px solid;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.empleado-listado {
+    font-family: MazdaType, helvetica, arial, sans-serif;
+    height: 200px;
+}
+
+.empleado-listado table {
+    width: 900px;
+    height: 100px;
+    text-align: justify;
+}
+.empleado-listado{
+    margin-left: 5%;
+}
+.empleado-listado .link{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+.container-listado{
+    margin-left: 5%;
+}
+.container-listado .link{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;}
